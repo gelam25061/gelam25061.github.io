@@ -98,6 +98,8 @@ body {
     justify-content: center;
     padding: 10px;
     font-size: 30px;
+    min-width: 200px;
+    max-height: 1200px;
     overflow: scroll;
     border: 2px solid rgb(93, 127, 236);
 }
@@ -111,7 +113,9 @@ body {
 /* Upcoming events? */
 .box3 {
     font-size: 30px;
-    border: 2px solid rgb(93, 127, 236);
+    border: 2px solid rgb(93, 127, 236);    
+    max-height: 650px;
+    overflow: scroll;
 }
 
 /* Picture slidshow */
@@ -148,15 +152,20 @@ body {
 
 /* Daily bible verse? */
 .box6 {
+    font-size: 30px;
     text-align: center;
     border: 2px solid rgb(93, 127, 236);
+    max-height: 650px;
+    overflow: scroll;
 }
 
 /* Missionary highlights */
 .box7 {
     font-size: 40px;
     border: 2px solid rgb(93, 127, 236);
-    min-width: 500px;
+    max-height: 1200px;
+    overflow: scroll;
+    min-width: 200px;
 }
 
 /* .box8 {
