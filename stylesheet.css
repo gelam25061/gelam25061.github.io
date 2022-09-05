@@ -14,6 +14,7 @@ body {
     column-gap: .50rem;    
 }
 
+/* Welcome to FIBC */
 .header {
     grid-area: hd;
     border: 2px solid black;
@@ -31,6 +32,10 @@ body {
     color: #293f50;
 }
 
+.header span {
+    font-size:20px;
+}
+
 .header a:hover {
     text-decoration: underline;
     cursor: pointer;
@@ -38,6 +43,7 @@ body {
 
 }
 
+/* all of main content */
 .boxcontainer {
     grid-area: mn;
     width: 100%;
@@ -55,6 +61,7 @@ body {
     min-height: 200px;
 }
 
+/* Roll text from javascript */
 .box1 {
     display: grid;    
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -73,7 +80,7 @@ body {
 }
 
 .box1 p {
-    font-size: 30px;
+    font-size: 35px;
     padding: 5px;    
 }
 
@@ -85,6 +92,7 @@ body {
     color: red;
 }
 
+/* Pastor greeting */
 .box2 {
     display: grid;
     justify-content: center;
@@ -94,12 +102,13 @@ body {
     border: 2px solid rgb(93, 127, 236);
 }
 
-/* Pastor Mark greeting */
+/* Pastor greeting */
 .greeting {
     text-align: center;
     font-size: 40px;
 }
 
+/* Upcoming events? */
 .box3 {
     font-size: 30px;
     border: 2px solid rgb(93, 127, 236);
@@ -137,11 +146,13 @@ body {
     border: 2px solid rgb(93, 127, 236);
 }
 
+/* Daily bible verse? */
 .box6 {
     text-align: center;
     border: 2px solid rgb(93, 127, 236);
 }
 
+/* Missionary highlights */
 .box7 {
     font-size: 40px;
     border: 2px solid rgb(93, 127, 236);
@@ -154,6 +165,7 @@ body {
     text-align: center;
 } */
 
+/* Grid arrangement of main content boxes */
 .box:first-child {
     grid-column: 1 / 6;
     grid-row: 1;
@@ -194,6 +206,7 @@ body {
     grid-column: 1 / 6;
 }
 
+/* Address, links */
 .sidebar {
     display: flex-block;
     justify-content: normal;
