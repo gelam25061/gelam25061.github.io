@@ -1,0 +1,31 @@
+/* Roll text from javascript */
+.box1 {
+    display: grid;
+    grid-template-areas: 
+    pic text text2 text3;    
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    max-height: 300px;    
+    background: linear-gradient(to right, #293f50, #8fcbe7);
+    color: white;    
+}
+
+.box1 img {  
+    width:450px;
+    height: 300px;    
+}
+
+.box1 p {
+    font-size: 35px;
+    padding: 20px;    
+}
+
+/* Are You Ready? */
+#roll_text_2 {    
+    font-size: 65px;
+    font-style: italic;
+    text-align: bottom;
+    color: red;
+}
