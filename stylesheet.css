@@ -86,6 +86,7 @@ body {
     font-size: 30px;
     border: 2px solid rgb(93, 127, 236);    
     max-height: 650px;
+    padding: 5px;
     overflow: scroll;
 }
 
@@ -127,6 +128,7 @@ body {
     text-align: center;
     border: 2px solid rgb(93, 127, 236);
     max-height: 650px;
+    padding: 5px;
     overflow: scroll;
 }
 
@@ -135,6 +137,7 @@ body {
     font-size: 20px;
     border: 2px solid rgb(93, 127, 236);
     max-height: 1300px;
+    padding: 5px;
     overflow: scroll;
     min-width: 200px;
 }
