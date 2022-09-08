@@ -69,8 +69,8 @@ body {
     padding: 10px;
     font-size: 30px;
     /* min-width: 200px;
-    max-width: 400px;
-    max-height: 1200px; */
+    max-width: 400px; */
+    max-height: 1300px;
     overflow: scroll;
     border: 2px solid rgb(93, 127, 236);
 }
@@ -134,7 +134,7 @@ body {
 .box7 {
     font-size: 20px;
     border: 2px solid rgb(93, 127, 236);
-    max-height: 1200px;
+    max-height: 1300px;
     overflow: scroll;
     min-width: 200px;
 }
@@ -190,7 +190,8 @@ body {
 .sidebar {
     display: flex-block;
     justify-content: normal;
-    align-content: space-around;    
+    align-content: space-around;
+    max-height: 1300px;   
     background: linear-gradient(to right, #293f50, #8fcbe7);
     color: white;
 }
