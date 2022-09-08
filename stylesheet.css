@@ -194,7 +194,7 @@ body {
     display: flex-block;
     justify-content: normal;
     align-content: space-around;
-    max-height: 1300px;   
+    max-height: 1475px;   
     background: linear-gradient(to right, #293f50, #8fcbe7);
     color: white;
 }
