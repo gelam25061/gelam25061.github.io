@@ -223,6 +223,10 @@ body {
     border: none;  
 }
 
+.sidebar li a:visited {
+    color: white;
+}
+
 .sidebar img {
     width: 450px;
     height: 300px;
