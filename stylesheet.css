@@ -5,11 +5,10 @@
 body {
     min-height: 100vh;
     display: grid;
-    grid-template-columns: repeat(9 1fr);
-    /* grid-auto-rows: auto; */
+    grid-template-columns: repeat(9 1fr);    
     grid-template-areas:
         "hd hd hd hd hd hd hd hd hd"
-        "sb sb mn mn mn mn mn mn mn"
+        "mn mn mn mn mn mn mn sb sb"
         "ft ft ft ft ft ft ft ft ft";
     column-gap: .50rem;    
 }
@@ -47,10 +46,10 @@ body {
 .boxcontainer {
     grid-area: mn;
     width: 100%;
-    min-height: 400px;
+    min-height: 250px;
     display: grid;    
     grid-template-columns: auto auto auto auto auto auto auto auto;
-    grid-template-rows: auto auto auto auto auto;
+    grid-template-rows: 250px auto auto auto auto;
     gap: 0.5rem;
     font-size: 55px;
     color: black;
@@ -95,8 +94,8 @@ body {
     display: grid;
     justify-content: center;
     align-items: center;
-    /* max-height: 400px;
-    min-height:400px; */
+    max-height: 400px;
+    min-height:400px;
    /*  max-width: 800px;
     min-width: 800px; */
     font-size: 30px;    
@@ -106,7 +105,7 @@ body {
 
     .box4 img {
         max-width:500px;
-        max-height:400px;        
+        max-height:600px;        
     }
 
     /* Plan of salvation */
@@ -115,7 +114,7 @@ body {
     grid-auto-flow: row;
     padding: 10px;
     font-size: 20px;
-    max-height: 800px;
+    max-height: 700px;
     /* max-width:700px;
     min-width: 699px; */
     overflow: scroll;
@@ -156,8 +155,9 @@ body {
 /* Grid arrangement of main content boxes */
 /* Box1 */
 .box:first-child {
-    grid-column: 1 / 6;
     grid-row: 1;
+    grid-column: 1 / 6;
+    
 }
 
 /* Box2 */
@@ -174,7 +174,7 @@ body {
 
 /* Box4 */
 .box:nth-child(4) {
-    grid-row: 5;
+    grid-row: 4 / 6;
     grid-column: 3 / 4;
 }
 
@@ -198,8 +198,8 @@ body {
 
 /* Box8 */
 .box:nth-child(8) {
-    grid-row: 5;
-    grid-column: 1 / 6;
+    grid-row: 1 / 6;
+    grid-column: 8 / 9;
 }
 
 /* Address, links */
