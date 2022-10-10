@@ -224,13 +224,14 @@ body {
     text-decoration: none;
 }
 
-.sidebar li a:hover {    
+.sidebar li a:hover {  
+    color: lightgrey;
     text-decoration: underline;
     text-decoration-color: white;
 }
 
 .sidebar li a:visited {
-    color: white;
+    color: none;
 }
 
 .sidebar img {
