@@ -220,7 +220,13 @@ body {
 .sidebar li a {
     font-size: 40px;
     color: white;
-    border: none;  
+    border: none;
+    text-decoration: none;
+}
+
+.sidebar li a:hover {    
+    text-decoration: underline;
+    text-decoration-color: white;
 }
 
 .sidebar li a:visited {
