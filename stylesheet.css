@@ -218,7 +218,7 @@ body {
 }
 
 .sidebar li a {
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     border: none;
     text-decoration: none;
@@ -240,8 +240,12 @@ body {
 }
 
 .sidebar p {
-    font-size:40px;
+    font-size:30px;
     text-align: center;
+}
+
+.sidebar p a {
+    color: white;
 }
 
 #bibleverse iframe {
